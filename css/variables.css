@@ -1,0 +1,15 @@
+:root {
+  /* Puedo crear variables */
+
+  /* Colores */
+  --primary-color: rgb(73, 143, 235);
+  --secondary-color: rgb(48, 84, 161);
+  --success: rgb(43, 126, 78);
+  --danger: rgb(190, 141, 35);
+  --error: rgb(199, 50, 50);
+  --info: rgb(58, 58, 196);
+
+  /* Fuentes */
+
+  /* Backgrounds / Fondos */
+}

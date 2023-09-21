@@ -1,0 +1,70 @@
+/* Slector de clase | id| clase | etiqueta | root | * 
+
+style > id > clase > etiqueta 
+!important
+*/
+
+/* Selector descendiente */
+div p {
+  color: green;
+}
+
+/* 
+Selector de hijo 
+
+  strong hijo de p
+
+*/
+
+p > strong {
+  color: orange;
+}
+
+/* Selector de hermano adyacente */
+
+h1 + p {
+  color: blueviolet;
+}
+
+/* Hermanos generales */
+h2 ~ p {
+  color: blue;
+}
+
+/* Selector de atributo */
+
+a[title="google"] {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Atributo que contenga (*=) */
+
+a[href*="face"] {
+  font-size: 3em;
+  color: pink;
+}
+
+/* Atributo que comience con... */
+
+a[href^="https"] {
+  font-size: 1.5em;
+  background-color: #08c9f7;
+  border-radius: 4px;
+}
+
+/* Atributo que termine con... */
+
+a[href$="er.com"] {
+  color: greenyellow;
+  background-color: grey;
+  padding: 1em;
+  border-radius: 3px;
+}
+
+/* Que contenga una clase especifica */
+
+a[class~="primary"] {
+  color: tomato;
+}
